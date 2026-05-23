@@ -1,12 +1,7 @@
 {
-  "functions": {
-    "api/graphql.ts": {
-      "runtime": "vercel-bun@latest"
-    }
-  },
   "rewrites": [
     {
-      "source": "/graphql",
+      "source": "/(.*)",
       "destination": "/api/graphql"
     }
   ]
