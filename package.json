@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "48th Members GraphQL API Service — BNK48 & CGM48 member profiles",
   "module": "index.ts",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "bun --watch index.ts",
