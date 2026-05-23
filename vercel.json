@@ -1,5 +1,12 @@
 {
   "bunVersion": "1.x",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/graphql",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/graphql",
