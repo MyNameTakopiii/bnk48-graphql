@@ -1,5 +1,5 @@
-import type { Member } from "../../types.ts";
-import { buildImageUrl } from "../../types.ts";
+import type { Member } from "../../types";
+import { buildImageUrl } from "../../types";
 
 export const cgmGen5: Member[] = [
   {
@@ -77,9 +77,16 @@ export const cgmGen5: Member[] = [
     dateOfBirth: "2013-06-05",
     height: "151 cm",
     province: "เชียงใหม่",
-    likes: ["ขนมขบเคี้ยว", "สีชมพู", "มักกะโรนีอบชีส", "ป๊อปคอร์น", "ก๋วยเตี๋ยวลูกชิ้นปลาเส้นน้ำใส"],
+    likes: [
+      "ขนมขบเคี้ยว",
+      "สีชมพู",
+      "มักกะโรนีอบชีส",
+      "ป๊อปคอร์น",
+      "ก๋วยเตี๋ยวลูกชิ้นปลาเส้นน้ำใส",
+    ],
     bloodGroup: "B",
-    hobby: "อ่านหนังสือ / ไปโรงเรียน / ดูหนัง / นอน / กิน / เล่นโยคะ / ทำขนม / เล่นพิลาทิส",
+    hobby:
+      "อ่านหนังสือ / ไปโรงเรียน / ดูหนัง / นอน / กิน / เล่นโยคะ / ทำขนม / เล่นพิลาทิส",
     image: buildImageUrl("tara"),
   },
 ];

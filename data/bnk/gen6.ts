@@ -1,5 +1,5 @@
-import type { Member } from "../../types.ts";
-import { buildImageUrl } from "../../types.ts";
+import type { Member } from "../../types";
+import { buildImageUrl } from "../../types";
 
 export const bnkGen6: Member[] = [
   {
@@ -13,7 +13,13 @@ export const bnkGen6: Member[] = [
     dateOfBirth: "2010-07-22",
     height: "163 cm",
     province: "กรุงเทพมหานคร",
-    likes: ["สัตว์ทุกชนิด", "ข้าวผัดกุ้ง", "มาการอง", "ช็อคโกแล็ต", "คณิตศาสตร์"],
+    likes: [
+      "สัตว์ทุกชนิด",
+      "ข้าวผัดกุ้ง",
+      "มาการอง",
+      "ช็อคโกแล็ต",
+      "คณิตศาสตร์",
+    ],
     bloodGroup: "B",
     hobby: "ดูหนัง / ฟังเพลง / เต้น / ร้องเพลง / เล่นเกม / ไปเที่ยว",
     image: buildImageUrl("blythe"),

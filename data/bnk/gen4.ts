@@ -1,5 +1,5 @@
-import type { Member } from "../../types.ts";
-import { buildImageUrl } from "../../types.ts";
+import type { Member } from "../../types";
+import { buildImageUrl } from "../../types";
 
 export const bnkGen4: Member[] = [
   {
@@ -61,7 +61,15 @@ export const bnkGen4: Member[] = [
     dateOfBirth: "2003-02-13",
     height: "158 cm",
     province: "หนองบัวลำภู",
-    likes: ["มันฝรั่งเกลียว", "ยอดนักสืบจิ๋วโคนัน", "แซลมอน", "ร้องเพลง", "มะม่วง", "สีชมพู", "สีเทา"],
+    likes: [
+      "มันฝรั่งเกลียว",
+      "ยอดนักสืบจิ๋วโคนัน",
+      "แซลมอน",
+      "ร้องเพลง",
+      "มะม่วง",
+      "สีชมพู",
+      "สีเทา",
+    ],
     bloodGroup: "B",
     hobby: "นอน / นอนดูโคนัน",
     image: buildImageUrl("l"),
@@ -143,7 +151,8 @@ export const bnkGen4: Member[] = [
     province: "กรุงเทพมหานคร",
     likes: ["สุนัข", "แมว", "ขนมขบเคี้ยว"],
     bloodGroup: "AB",
-    hobby: "ร้องเพลง / วาดรูป / เต้น / ฟังเพลง / เล่นเปียโน / เล่นกีตาร์ / ทำคอนเทนต์ TikTok",
+    hobby:
+      "ร้องเพลง / วาดรูป / เต้น / ฟังเพลง / เล่นเปียโน / เล่นกีตาร์ / ทำคอนเทนต์ TikTok",
     image: buildImageUrl("sindy"),
   },
   {

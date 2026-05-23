@@ -10,10 +10,12 @@
     "start": "bun index.ts",
     "test": "bun test",
     "test:watch": "bun test --watch",
-    "test:coverage": "bun test --coverage"
+    "test:coverage": "bun test --coverage",
+    "fmt": "bunx prettier . --write"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "prettier": "3.8.3"
   },
   "peerDependencies": {
     "typescript": "^5"

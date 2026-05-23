@@ -240,12 +240,8 @@ describe("GraphQL: filterByLike(keyword) query", () => {
     `);
 
     expect(lower.data.filterByLike.length).toBeGreaterThan(0);
-    expect(lower.data.filterByLike.length).toBe(
-      upper.data.filterByLike.length,
-    );
-    expect(lower.data.filterByLike.length).toBe(
-      mixed.data.filterByLike.length,
-    );
+    expect(lower.data.filterByLike.length).toBe(upper.data.filterByLike.length);
+    expect(lower.data.filterByLike.length).toBe(mixed.data.filterByLike.length);
   });
 
   it("should match substring in likes", async () => {

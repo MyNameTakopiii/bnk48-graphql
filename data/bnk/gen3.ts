@@ -1,5 +1,5 @@
-import type { Member } from "../../types.ts";
-import { buildImageUrl } from "../../types.ts";
+import type { Member } from "../../types";
+import { buildImageUrl } from "../../types";
 
 export const bnkGen3: Member[] = [
   {
@@ -45,7 +45,13 @@ export const bnkGen3: Member[] = [
     dateOfBirth: "2008-08-04",
     height: "148 cm",
     province: "กรุงเทพมหานคร",
-    likes: ["แซลมอน", "เครื่องเขียน", "กล้องถ่ายรูป", "เสื้อผ้า", "การเดินชมร้านขายของเก่า"],
+    likes: [
+      "แซลมอน",
+      "เครื่องเขียน",
+      "กล้องถ่ายรูป",
+      "เสื้อผ้า",
+      "การเดินชมร้านขายของเก่า",
+    ],
     bloodGroup: "O",
     hobby: "เต้น / ร้องเพลง / ระบายสีน้ำ / ให้อาหารปลา / เล่นกับสัตว์",
     image: buildImageUrl("monet"),
@@ -77,7 +83,16 @@ export const bnkGen3: Member[] = [
     dateOfBirth: "2004-11-10",
     height: "168 cm",
     province: "กรุงเทพมหานคร",
-    likes: ["นอน", "กิน", "ถ่ายรูป", "ดูหนัง", "ช็อกโกแลต", "ไดฟุกุชาเขียว", "กล้องฟิล์ม", "อวกาศ"],
+    likes: [
+      "นอน",
+      "กิน",
+      "ถ่ายรูป",
+      "ดูหนัง",
+      "ช็อกโกแลต",
+      "ไดฟุกุชาเขียว",
+      "กล้องฟิล์ม",
+      "อวกาศ",
+    ],
     bloodGroup: "O",
     hobby: "ดูหนัง / ฟังเพลง / ทำขนม / อ่านนิยาย / เล่นกีตาร์ / เล่นอูคูเลเล่",
     image: buildImageUrl("yoghurt"),
