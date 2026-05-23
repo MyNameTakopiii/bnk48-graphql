@@ -3,7 +3,7 @@ import { schema } from "../schema/index.ts";
 
 const yoga = createYoga({
   schema,
-  graphqlEndpoint: "/api/graphql",
+  graphqlEndpoint: "/graphql",
   graphiql: true,
 });
 

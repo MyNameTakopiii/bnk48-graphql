@@ -1,10 +1,10 @@
-import type { Member } from "../types";
+import type { Member } from "../types.ts";
 
 // BNK48
-import { bnk } from "./bnk";
+import { bnk } from "./bnk/index.ts";
 
 // CGM48
-import { cgm } from "./cgm";
+import { cgm } from "./cgm/index.ts";
 
 export const allMembers: Member[] = [...bnk, ...cgm];
 
