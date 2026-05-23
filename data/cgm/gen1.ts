@@ -1,5 +1,6 @@
-import type { Member } from "../../types.ts";
-import { buildImageUrl } from "../../types.ts";
+import type { Member } from "../../types";
+import { buildImageUrl } from "../../types";
+
 
 /**
  * CGM48 1st generation — all members have graduated.

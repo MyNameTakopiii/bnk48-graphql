@@ -6,8 +6,9 @@
  */
 
 import { describe, it, expect } from "bun:test";
-import { allMembers } from "../../data/index.ts";
-import { isValidImageUrl } from "../../types.ts";
+import { allMembers } from "../../data/index";
+import { isValidImageUrl } from "../../types";
+
 
 describe("Data Layer — Member Schema Validation", () => {
   it("should have at least one member in the dataset", () => {
