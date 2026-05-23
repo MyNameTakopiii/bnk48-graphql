@@ -7,9 +7,8 @@
 
 import { describe, it, expect } from "bun:test";
 import { createYoga } from "graphql-yoga";
-import { schema } from "../../schema/index";
-import { allMembers } from "../../data/index";
-
+import { schema } from "../../schema/index.ts";
+import { allMembers } from "../../data/index.ts";
 
 // ── Test Helpers ───────────────────────────────────────────────────────────
 

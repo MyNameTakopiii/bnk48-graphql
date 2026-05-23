@@ -1,18 +1,17 @@
-import type { Member } from "../types";
+import type { Member } from "../types.ts";
 
 // BNK48
-import { bnkGen3 } from "./bnk/gen3";
-import { bnkGen4 } from "./bnk/gen4";
-import { bnkGen5 } from "./bnk/gen5";
-import { bnkGen6 } from "./bnk/gen6";
+import { bnkGen3 } from "./bnk/gen3.ts";
+import { bnkGen4 } from "./bnk/gen4.ts";
+import { bnkGen5 } from "./bnk/gen5.ts";
+import { bnkGen6 } from "./bnk/gen6.ts";
 
 // CGM48 
-import { cgmGen1 } from "./cgm/gen1";
-import { cgmGen2 } from "./cgm/gen2";
-import { cgmGen3 } from "./cgm/gen3";
-import { cgmGen4 } from "./cgm/gen4";
-import { cgmGen5 } from "./cgm/gen5";
-
+import { cgmGen1 } from "./cgm/gen1.ts";
+import { cgmGen2 } from "./cgm/gen2.ts";
+import { cgmGen3 } from "./cgm/gen3.ts";
+import { cgmGen4 } from "./cgm/gen4.ts";
+import { cgmGen5 } from "./cgm/gen5.ts";
 
 
 export const allMembers: Member[] = [

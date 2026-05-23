@@ -6,13 +6,12 @@
  */
 
 import { describe, it, expect } from "bun:test";
-import { buildImageUrl, isValidImageUrl } from "../../types";
+import { buildImageUrl, isValidImageUrl } from "../../types.ts";
 import {
   memberByNameMap,
   membersWithNormalizedLikes,
   allMembers,
-} from "../../data/index";
-
+} from "../../data/index.ts";
 
 // ── buildImageUrl ──────────────────────────────────────────────────────────
 

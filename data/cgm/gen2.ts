@@ -1,6 +1,5 @@
-import type { Member } from "../../types";
-import { buildImageUrl } from "../../types";
-
+import type { Member } from "../../types.ts";
+import { buildImageUrl } from "../../types.ts";
 
 export const cgmGen2: Member[] = [
   {
