@@ -7,4 +7,11 @@ const yoga = createYoga({
   graphiql: true,
 });
 
+export const config = {
+  api: {
+    bodyParser: false,
+  },
+};
+
 export default yoga;
+
