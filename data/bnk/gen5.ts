@@ -1,5 +1,5 @@
-import type { Member } from "../../types.ts";
-import { buildImageUrl } from "../../types.ts";
+import type { Member } from "../../types.js";
+import { buildImageUrl } from "../../types.js";
 
 export const bnkGen5: Member[] = [
   {
