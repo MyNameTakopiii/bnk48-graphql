@@ -6,12 +6,12 @@
  */
 
 import SchemaBuilder from "@pothos/core";
-import type { Member } from "../types.js";
+import type { Member } from "../types";
 import {
   allMembers,
   memberByNameMap,
   membersWithNormalizedLikes,
-} from "../data/index.js";
+} from "../data";
 
 // ── Builder ────────────────────────────────────────────────────────────────
 
