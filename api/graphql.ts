@@ -7,10 +7,8 @@ const yoga = createYoga({
   graphiql: true,
 });
 
-export const config = {
-  api: {
-    bodyParser: false,
-  },
+export default {
+  async fetch(request: Request) {
+    return yoga.fetch(request);
+  }
 };
-
-export default yoga;
