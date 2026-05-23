@@ -1,0 +1,26 @@
+{
+  "name": "bnk48-graphql",
+  "version": "1.0.0",
+  "description": "48th Members GraphQL API Service — BNK48 & CGM48 member profiles",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch index.ts",
+    "start": "bun index.ts",
+    "test": "bun test",
+    "test:watch": "bun test --watch",
+    "test:coverage": "bun test --coverage"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@pothos/core": "^4.12.0",
+    "graphql": "^16.14.0",
+    "graphql-yoga": "^5.21.0"
+  }
+}
